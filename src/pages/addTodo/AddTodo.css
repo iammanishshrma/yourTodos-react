@@ -1,0 +1,32 @@
+.add-todo{
+	padding: 40px 0;
+}
+.add-todo__heading{
+	width: calc(100% - 10px);
+	font-size: 30px;
+	font-weight: 900;
+	margin-bottom: 25px;
+	text-align: center;
+}
+.add-todo__input-wrap {
+	margin-bottom: 20px;
+}
+.add-todo__input-wrap label{
+	display: block;
+	font-weight: 500;
+	margin-bottom: 5px;
+}
+.add-todo__input-wrap input, .add-todo__input-wrap textarea{
+	width: 100%;
+	font-weight: 500;
+	font-size: 16px;
+	border: 1px solid black;
+	padding: 5px 10px;
+	border-radius: 5px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.add-todo__cta-wrap{
+	display: flex;
+	justify-content: center;
+}

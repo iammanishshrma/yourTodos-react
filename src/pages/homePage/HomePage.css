@@ -1,0 +1,51 @@
+.home-page{
+	padding: 40px 0;
+}
+.home-page__header-wrapper{
+	display: flex;
+}
+.home-page__check-wrap{
+	margin-right: 10px;
+}
+.home-page__heading{
+	width: calc(100% - 10px);
+	font-size: 30px;
+	font-weight: 900;
+	margin-bottom: 25px;
+	text-align: center;
+}
+.home-page__todo-list-item{
+	padding: 20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+	border-radius: 5px;
+	max-width: 700px;
+	margin: 0 auto 20px;
+	transition: 0.3s;
+	position: relative;
+	overflow: hidden;
+}
+.home-page__todo-list-item.completed{
+	opacity: 0.5;
+}
+.home-page__list-heading{
+	font-size: 20px;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+.home-page__list-description{
+	margin-bottom: 20px;
+}
+.home-page__cta-btns{
+	display: flex;
+}
+.home-page__cta-btns .btn{
+	margin-right: 10px;
+}
+.complete-tag{
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 5px 10px;
+	background: black;
+	color: white;
+}
