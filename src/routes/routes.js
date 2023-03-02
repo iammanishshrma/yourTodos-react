@@ -7,6 +7,8 @@ import SignUp from "../pages/authenticate/SignUp";
 import LogIn from "../pages/authenticate/LogIn";
 import AuthRoute from "./AuthRoute";
 import ProtectedRoute from "./ProtectedRoute";
+import Profile from "../pages/profile/Profile";
+import EditProfile from "../pages/profile/EditProfile";
 
 const routes = createBrowserRouter([
     {
@@ -37,7 +39,15 @@ const routes = createBrowserRouter([
                 path: "/profile",
                 element: (
                     <ProtectedRoute to="/profile">
-                        <h1>Profile</h1>,
+                        <Profile />
+                    </ProtectedRoute>
+                ),
+            },
+            {
+                path: "/profile/edit",
+                element: (
+                    <ProtectedRoute to="/profile/edit">
+                        <EditProfile />
                     </ProtectedRoute>
                 ),
             },
